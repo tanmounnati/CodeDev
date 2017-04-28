@@ -26,8 +26,7 @@ public class EmployeeController {
 		if (employee!=null)
 			return employee;
 		else
-			new RuntimeException("No employee Found!");
-		return employee;
+			throw new RuntimeException("No employee Found!");
 	}
 	
 }
