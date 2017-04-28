@@ -1,0 +1,6 @@
+1. Configure your docker platform 
+2. Run in built mongo DB image with - "docker -P -d --name mongodb1 mongo
+3. Run docker ps to see the port of mongo db binds to tcp port
+4. echo $DOCKER_HOST to find the ip address of mongo DB
+5. Once you know the IP and PORT of mongo DB, you can pass them as parameter to your spring boot main
+6. java -Dspring.data.mongodb.uri=mongodb1://<ip>:<port>/micro -jar target/<jar location>

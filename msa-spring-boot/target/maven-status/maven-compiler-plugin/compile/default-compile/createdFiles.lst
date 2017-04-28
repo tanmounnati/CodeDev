@@ -1,0 +1,4 @@
+msa\employee\boot\EmployeeRepository.class
+msa\employee\boot\EmployeeBoot.class
+msa\employee\boot\EmployeeController.class
+msa\employee\boot\Employee.class
